@@ -34,4 +34,16 @@ https://www.terminaltemple.com/ open this to work on linux commands
   also . (current directory)
   and .. (parent directory)
 
-4. 
+4. mkdir = make directory : mkdit myFolder
+ 
+5. cd = change directory , changes directory : cd myFodler , cd ..
+
+6. touch = used to make new files : touch file1.txt
+
+7. echo "hello" = displays hello : echo"hello" > file1.ttx ( writes hello in file1)
+
+8. cat = displays content of file : cat file1.txt
+
+9. wc = wprd count : wc file.txt
+
+10. cp = copy file/ directory : cp file1.txt copy.txt
