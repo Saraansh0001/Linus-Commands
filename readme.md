@@ -47,3 +47,16 @@ https://www.terminaltemple.com/ open this to work on linux commands
 9. wc = wprd count : wc file.txt
 
 10. cp = copy file/ directory : cp file1.txt copy.txt
+
+11. mv = move or rename file : mv file1.txt new.txt
+
+12. ls -l = long listing : permision , time edited and many more things 
+
+13. tree = shows fodler in tree format ( nested jaisa )  
+    tree are not supoorted in oniline kernels , and can be installed in system only using sudo apt install tree
+
+14. date : Mon Apr 13 18:53:50 2026
+
+15. whoami : saransh/saran gives your name nno matter in whichever folder u r
+
+16. 
