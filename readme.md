@@ -59,4 +59,109 @@ https://www.terminaltemple.com/ open this to work on linux commands
 
 15. whoami : saransh/saran gives your name nno matter in whichever folder u r
 
-16. 
+16. df -h = displays disk sapce in human readable format in gb/mb
+    cmd doesnt support it as it a unix cammand and is supported in linux and macos
+
+17. rm = removes file permanently : rm file1.txt
+
+18. rmdir = remove directory : rmdir folderName
+
+19. nano = Open / Create a file : nano file.txt
+
+    If file exists → opens it
+    If not → creates new file
+
+    Write content
+    Just start typing:
+
+    Hello world
+    This is nano
+
+    again like tree , ony i unix command line , not supported in online env
+
+20. less = less is a command used to view file contents page by page : less file.txt
+
+    cat	                              less
+    Shows full content               	Page by page
+    Not good for large files	        Best for large files
+
+21. head Displays the first few lines of a file. : head -n 5 file.txt :tail -5 file.txt ( default = 10 ) : head file.txt
+22. tail Displays the last few lines of a file. : tail -n 5 file.txt : tail -5 file.txt ( default = 10 ) : tail file.txt
+
+23. grep = Global Regular Expression Print ; searches words , patterns in file : grep "hello" file.txt
+
+24. wc -l = counts no of lines : wc -l file.txt
+
+25. chmod = change file permission for all : chmod 777 file1.txt
+     
+    777 means alll have all permissions 
+    owner u , grp g , others o 
+    4 = read (R ), 2 write (w) , 1 execute (x)
+    766 , rwx , rw , rw
+    chmod u+x file.txt : execute permission given to user/owner
+    chmod g-w file.txt : write permission removed from grp
+
+    check permission :-
+    ls -l
+    -rwxr-xr--
+
+    rwx , r-x  , r--
+    rwx → user
+    r-x → group
+    r-- → others
+
+26. ps = used to see process status which all process are running 
+27. ps -e = all system processes  
+
+28. echo $$ = echo $$ is used to display the process ID of the current shell.
+    
+    A shell variable is a variable used in the Linux shell (terminal) to store data.
+
+29. uptime : 
+    
+    10:30:25 up 2:15,  1 user,  load average: 0.10, 0.20, 0.30
+    current time , up time , user , load in 1 5 15 min
+
+30. free -h : free → shows memory usage (RAM) , -h → human-readable (MB/GB)
+
+                  total   used   free   shared  buff/cache  available
+    Mem:          8.0G   3.2G   1.5G    200M     3.3G        4.2G
+    Swap:         2.0G   0.5G   1.5G
+
+    | Column     | Meaning             |
+    | ---------- | ------------------- |
+    | total      | Total RAM           |
+    | used       | RAM being used      |
+    | free       | Completely free RAM |
+    | shared     | Shared memory       |
+    | buff/cache | Cached memory       |
+    | available  | Usable memory       |
+
+31. lscpu = List CPU : It is used to display CPU (processor) information
+
+32. who
+
+    user1   pts/0   2026-04-13 10:20
+    user2   pts/1   2026-04-13 10:25
+
+    | Field     | Meaning          |
+    | --------- | ---------------- |
+    | user1     | Username         |
+    | pts/0     | Terminal session |
+    | date/time | Login time       |
+33. sort file.txt = sorts lines in acc to alphabets
+
+34. man = man command is used to display the manual or help page of a command in Linux.
+
+    man ls   ✅
+    man grep ✅
+
+    man ls grep ❌
+
+    man 5 passwd 
+    
+    Here:
+    5 = section number
+    passwd = topic
+
+35. clear adn exit
