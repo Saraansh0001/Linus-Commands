@@ -81,7 +81,7 @@ https://www.terminaltemple.com/ open this to work on linux commands
 
 20. less = less is a command used to view file contents page by page : less file.txt
 
-    cat	                              less
+    cat	                                less
     Shows full content               	Page by page
     Not good for large files	        Best for large files
 
