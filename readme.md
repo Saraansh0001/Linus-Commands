@@ -57,7 +57,7 @@ https://www.terminaltemple.com/ open this to work on linux commands
 
 14. date : Mon Apr 13 18:53:50 2026
 
-15. whoami : saransh/saran gives your name nno matter in whichever folder u r
+15. whoami : saransh/saran gives your name no matter in whichever folder u r
 
 16. df -h = displays disk sapce in human readable format in gb/mb
     cmd doesnt support it as it a unix cammand and is supported in linux and macos
